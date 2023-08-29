@@ -4,7 +4,7 @@ import Button from "./Button"
 
 const Hero = () => {
   return (
-    <section id='home' className='w-full flex flex-1 p-6 justify-center bg-primary border-b-[2px] border-black mr-10'>
+    <section id='home' className='w-full flex flex-1 py-8  justify-center bg-primary border-b-[2px] border-black'>
         <div className='flex sm:flex-row flex-col justify-center items-center'>
             <div className='flex flex-col justify-center'>
                 <h2 className={`${styles.heading2} text-secondary p-0`}>Little Lemon</h2>

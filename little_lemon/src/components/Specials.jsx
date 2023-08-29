@@ -4,7 +4,7 @@ import { specials } from "../constants"
 
 const SpecialCard = ({title, description, image}) => {
     return(
-        <div className="flex flex-col items-center mx-3 p-6 bg-primary rounded-[4px] my-3 md:my-0
+        <div className="flex flex-col items-center mx-6 p-4 bg-primary rounded-[4px] my-3 md:my-0
                         border-[2px] border-black hover:border-secondary">
             <img src={image} alt="food-image" className="w-[300px] h-[200px] object-cover rounded-[4px]"/>
             <h4 className={`${styles.heading4} text-white underline`}>
@@ -19,7 +19,7 @@ const SpecialCard = ({title, description, image}) => {
 
 const Specials = () => {
   return (
-    <section id='menu' className="my-8">
+    <section id='menu' className="py-8">
         <div className='flex flex-col flex-1'>
             <div className='flex flex-row flex-1 justify-evenly items-center mb-8'>
                 <h2 className={styles.heading2}>
