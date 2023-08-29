@@ -4,7 +4,7 @@ import Button from "./Button"
 
 const Hero = () => {
   return (
-    <section id='home' className='w-full flex flex-1 p-6 justify-center bg-primary border-b-[2px] border-black'>
+    <section id='home' className='w-full flex flex-1 p-6 justify-center bg-primary border-b-[2px] border-black mr-10'>
         <div className='flex sm:flex-row flex-col justify-center items-center'>
             <div className='flex flex-col justify-center'>
                 <h2 className={`${styles.heading2} text-secondary p-0`}>Little Lemon</h2>
@@ -16,7 +16,7 @@ const Hero = () => {
                 <Button style="mt-5">Reserve a Table</Button>
             </div>
 
-            <div className="">
+            <div className="ml-10">
                 <img src={restaurantfood} className="h-[300px] w-[300px] object-cover rounded-full border-[2px] "></img>
             </div>
         </div>
