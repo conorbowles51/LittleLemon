@@ -1,6 +1,7 @@
 import { navLinks } from "../constants"
 import { useState } from "react";
 import Logo from "../assets/icons/Logo.svg"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
@@ -12,7 +13,9 @@ const Navbar = () => {
                 {
                     navLinks.map((link, index) => (
                         <li key={link.id} className="font-markazi font-normal cursor-pointer text-[26px] text-black mr-10">
-                            <a href={`#${link.id}`}>{link.title}</a>
+                            {
+                                link.id[0] === '#' ? <a href={`${link.id}`}>{link.title}</a> : <Link to={`${link.id}`}>{link.title}</Link>
+                            }
                         </li>
                     ))
                 }

@@ -10,27 +10,27 @@ import person5 from '../assets/person5.jpg'
 
 export const navLinks = [
     {
-        id: 'home',
+        id: '/',
         title: 'Home'
     },
     {
-        id: 'about',
+        id: '#about',
         title: 'About'
     },
     {
-        id: 'menu',
+        id: '#menu',
         title: 'Menu'
     },
     {
-        id: 'reservations',
+        id: '/reservations',
         title: 'Reservations'
     },
     {
-        id: 'order',
+        id: '#order',
         title: 'Order'
     },
     {
-        id: 'login',
+        id: '#login',
         title: 'Login'
     }
 ];
