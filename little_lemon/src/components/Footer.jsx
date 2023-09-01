@@ -3,7 +3,7 @@ import { styles } from '../constants/styles'
 
 const Footer = () => {
   return (
-    <section id="footer" className=' my-[50px] py-[50px] border-t-[2px] border-grey'>
+    <section id="footer" className='py-[50px] border-t-[2px] border-grey'>
         <div className='sm:flex-row flex-col flex justify-center sm:items-start items-center'>
             <img src={logo} alt='logo' className='w-[200px] h-[100px]  px-6'></img>
 

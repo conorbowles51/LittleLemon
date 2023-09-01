@@ -38,17 +38,17 @@ export const navLinks = [
 export const specials = [
     {
         title: 'Greek Salad',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        description: 'The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.',
         image: greekSalad
     },
     {
         title: 'Lemon Desert',
-        description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.',
+        description: 'This comes straight from grandmas recipe book, every last ingredient has been sourced and is as authentic as can be imagined.',
         image: lemonDesert
     },
     {
-        title: 'Bread Rolls',
-        description: 'Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+        title: 'Bruschetta',
+        description: 'Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.',
         image: breadRolls
     }
 ];

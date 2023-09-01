@@ -13,7 +13,7 @@ const TestimonialCard = ({image, comment}) => {
 const Testimonials = () => {
   return (
     <section id="testimonials" className="py-8 mt-10 bg-primary border-y-[2px] border-black">
-      <h2 className={`${styles.heading2} w-full flex justify-center text-white`}>Testimonials</h2>
+      <h2 className={`${styles.heading2} w-full flex justify-center text-white`}>What people say about us</h2>
 
       <div className="flex flex-col sm:flex-row flex-1 justify-center mt-8">
         {
