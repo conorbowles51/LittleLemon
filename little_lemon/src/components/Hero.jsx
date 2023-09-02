@@ -13,7 +13,9 @@ const Hero = () => {
                 <p className={`${styles.paragraph} max-w-[470px] text-white`}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 </p>
-                <Button style="mt-5">Reserve a Table</Button>
+                <Button style="mt-5">
+                    <a href="/reservations" className='w-full h-full'>Reserve a Table</a>
+                </Button>
             </div>
 
             <div className="ml-10">
