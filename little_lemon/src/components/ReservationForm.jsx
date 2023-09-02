@@ -19,7 +19,7 @@ const ReservationForm = () => {
 
     if(!tableBooked){
         return (
-            <section className='bg-primary flex flex-row justify-center py-[100px]'>
+            <section id='reservation' className='bg-primary flex flex-row justify-center py-[100px]'>
                 <form className='flex flex-col justify-center items-center p-6 bg-white rounded-[20px] ' onSubmit={submitForm}>
                     <h2 className={styles.heading2}>Reserve a Table</h2>
                     <label className={styles.formLabel} htmlFor="res-date">Choose Date</label>

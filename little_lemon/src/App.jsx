@@ -11,11 +11,17 @@ import ReservationForm from './components/ReservationForm'
 const Homepage = () => {
   return(
     <>
-      <Navbar/>
-      <Hero/>
-      <Specials/>
-      <Testimonials/>
-      <About/>
+      <header>
+        <Navbar/>
+      </header>
+
+      <main>
+        <Hero/>
+        <Specials/>
+        <Testimonials/>
+        <About/>
+      </main>
+
       <Footer/>
     </>
   );
